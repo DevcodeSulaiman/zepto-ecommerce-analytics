@@ -1,0 +1,57 @@
+# Gitignore for Zepto E-Commerce & Inventory Analytics
+
+# === Environment & Credentials ===
+.env
+.env.*
+*.env
+secrets.env
+config.local.*
+
+# === Database credentials / connection files ===
+*.cnf
+my.ini
+connection_string.txt
+
+# === Python artifacts (if any scripts added later) ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+.env/
+*.egg-info/
+dist/
+build/
+
+# === Jupyter notebooks (if added) ===
+.ipynb_checkpoints/
+
+# === OS-specific files ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Editor/IDE files ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === Temporary / backup files ===
+*.tmp
+*.bak
+*.backup
+*.log
+
+# === Power BI temporary files ===
+*.pbix.bak
+*.pbix.lock
+
+# === Large export files ===
+*.sql.gz
+*.csv.gz
+
+# Note: zepto_v2.csv in data/ is intentionally tracked (source dataset)
